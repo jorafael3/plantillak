@@ -21,10 +21,10 @@
 /* PERSONALIZADO */
 :root {
   --color-default: #212529;
-  --color-primary: #641E16;
+  --color-primary: #804000;
   --color-secondary: #FEF5E7;
   --color-warning: #F39C12;
-  --color-brown: #641E16;
+  --color-brown: #804000;
   --color-crema: #FEF5E7;
 }
 
@@ -68,6 +68,7 @@ section {
   padding: 80px 0;
 }
 
+
 .section-bg {
   background-color:var(--font-primary);
 }
@@ -92,9 +93,9 @@ section {
   font-weight: 400;
   margin: 0;
   padding: 0;
-  /* color: #7f7f90; */
+  color: #7f7f90;
   text-transform: uppercase;
-  font-family: var(--font-default);
+  font-family: var(--font-primary);
 }
 
 .section-header p {
@@ -284,9 +285,9 @@ section {
 .header .logo h1 {
   font-size: 28px;
   font-weight: 700;
-  color: #000;
+  color:  var(--color-secondary);
   margin: 0;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .header .logo h1 span {
@@ -591,7 +592,7 @@ section {
   font-weight: 700;
   font-size: 36px;
   margin-bottom: 30px;
-  font-family: var(--font-secondary);
+  font-family: var(--font-primary);
 }
 
 .about .call-us {
@@ -742,6 +743,13 @@ section {
   background: var(--color-secondary);
 }
 
+.why-us h3 {
+  font-weight: 700;
+  font-size: 36px;
+  margin-bottom: 30px;
+  font-family: var(--font-primary);
+}
+
 .why-us .why-box h3 {
   font-weight: 700;
   font-size: 34px;
@@ -816,7 +824,7 @@ section {
 # Stats Counter Section
 --------------------------------------------------------------*/
 .stats-counter {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/stats-bg.jpg") center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.domestika.org/c_fill,dpr_auto,f_auto,h_630,q_auto,w_1200/v1557773166/blog-post-open-graph-covers/000/001/975/1975-original.png?1557773166") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -843,7 +851,7 @@ section {
   padding: 0;
   margin: 0;
   font-family: var(--font-secondary);
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.6);
 }
