@@ -583,6 +583,7 @@ section {
 --------------------------------------------------------------*/
 .about .about-img {
   min-height: 500px;
+  background-size: cover;
 }
 .about-bg{
   background: var(--color-secondary);
@@ -1051,7 +1052,7 @@ section {
 .events .event-item {
   background-size: cover;
   background-position: cente;
-  min-height: 600px;
+  min-height: 450px;
   padding: 30px;
 }
 
